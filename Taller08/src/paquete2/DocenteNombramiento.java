@@ -7,7 +7,7 @@ public class DocenteNombramiento extends Docente{
     private int numHoE;
     private double suledo;
 
-    public void establecerVSueldoS(double f) {
+    public void establecerVSueldo(double f) {
         
         vSueldo = f;
         

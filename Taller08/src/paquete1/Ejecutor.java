@@ -52,7 +52,7 @@ public class Ejecutor {
                         DocenteNombramiento dc = new DocenteNombramiento();
                         dc.establecerNombre(nombres);
                         dc.establecerCedula(cedula);
-                        dc.establecerVSueldoS(valorS);
+                        dc.establecerVSueldo(valorS);
                         dc.establecerValorHoE(vHoras);
                         dc.establecerNumHoE(numH);
                         dc.calcularSuledo();
@@ -88,7 +88,7 @@ public class Ejecutor {
 
                     default:
 
-                        System.err.println("Opcion Incorrecta!");
+                        System.err.println("Error, opcion no valida");
                         break;
                         
             }

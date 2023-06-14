@@ -12,9 +12,7 @@ public class Docente {
     }
 
     public void establecerCedula(String s) {
-        
-        cedula = s;
-        
+    
     }
 
     public String obtenerNombre() {
