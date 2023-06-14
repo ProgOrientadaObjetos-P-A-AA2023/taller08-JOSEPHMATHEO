@@ -56,12 +56,12 @@ public class DocenteNombramiento extends Docente{
     
     @Override
     public String toString(){
-        String reporte = String.format("Nombres: %s\n"
+        String reporte = String.format("\nNombres: %s\n"
                 + "Cedula: %s\n"
-                + "Valor del Sueldo: %.1f\n"
-                + "Valor Hora Extra: %.1f\n"
+                + "Valor del Sueldo: $%.1f\n"
+                + "Valor Hora Extra: $%.1f\n"
                 + "Numero de Horas Extra: %d\n"
-                + "Sueldo: %.1f\n",
+                + "Sueldo: $%.1f\n",
                 nombre,
                 cedula,
                 vSueldo,
